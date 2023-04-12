@@ -16,3 +16,9 @@
   font-family: "omyim";
   src: url("../img/font/PSL-Omyim.ttf");
 }
+
+@media screen and (max-width: 640px) {
+  .sm-font {
+    font-size: 1.25rem;
+  }
+}
