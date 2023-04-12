@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  img {
+    width: 100%;
+  }
+
+  .section {
+    @apply container mx-auto py-[8rem] px-6 min-h-screen;
+  }
+}
+
+@font-face {
+  font-family: "omyim";
+  src: url("../img/font/PSL-Omyim.ttf");
+}
+
+@media screen and (max-width: 640px) {
+  .sm-font {
+    font-size: 1.25rem;
+  }
+}
